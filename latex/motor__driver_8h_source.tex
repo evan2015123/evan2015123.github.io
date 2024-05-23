@@ -1,0 +1,33 @@
+\doxysection{motor\+\_\+driver.\+h}
+\hypertarget{motor__driver_8h_source}{}\label{motor__driver_8h_source}\index{/Users/evananthony/STM32CubeIDE/workspace\_1.13.2/ME\_507\_Lab\_02/Core/Inc/motor\_driver.h@{/Users/evananthony/STM32CubeIDE/workspace\_1.13.2/ME\_507\_Lab\_02/Core/Inc/motor\_driver.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/*}}
+\DoxyCodeLine{00002\ \textcolor{comment}{\ *\ motor\_driver.h}}
+\DoxyCodeLine{00003\ \textcolor{comment}{\ *}}
+\DoxyCodeLine{00004\ \textcolor{comment}{\ *\ \ Created\ on:\ Apr\ 18,\ 2024}}
+\DoxyCodeLine{00005\ \textcolor{comment}{\ *\ \ \ \ \ \ Author:\ evananthony}}
+\DoxyCodeLine{00006\ \textcolor{comment}{\ */}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#ifndef\ INC\_MOTOR\_DRIVER\_H\_}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#define\ INC\_MOTOR\_DRIVER\_H\_}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <stdio.h>}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <stdint.h>}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ "{}stm32l4xx\_hal.h"{}}}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ \textcolor{keyword}{struct\ }\{}
+\DoxyCodeLine{00016\ \ \ \ \ TIM\_HandleTypeDef*\ pwmHandle;}
+\DoxyCodeLine{00017\ \ \ \ \ uint32\_t\ timer\_ch\_1;}
+\DoxyCodeLine{00018\ \ \ \ \ uint32\_t\ timer\_ch\_2;}
+\DoxyCodeLine{00019\ \}\ \textcolor{keyword}{typedef}\ \mbox{\hyperlink{structmotor__object}{motor\_object}};}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \textcolor{comment}{//\ PROTOTYPES:}}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \textcolor{keywordtype}{void}\ set\_duty(\mbox{\hyperlink{structmotor__object}{motor\_object}}*\ p\_mot,\ int32\_t\ duty);}
+\DoxyCodeLine{00024\ \textcolor{keywordtype}{void}\ enable\_motor(\mbox{\hyperlink{structmotor__object}{motor\_object}}*\ p\_mot);}
+\DoxyCodeLine{00025\ \textcolor{keywordtype}{void}\ disable\_motor(\mbox{\hyperlink{structmotor__object}{motor\_object}}*\ p\_mot);}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00027\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ INC\_MOTOR\_DRIVER\_H\_\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}
