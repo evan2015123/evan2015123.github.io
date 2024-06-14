@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['exceptions_0',['MISRA-C:2004 Compliance Exceptions',['../_c_m_s_i_s__m_i_s_r_a__exceptions.html',1,'']]]
+  ['deprecated_20list_0',['Deprecated List',['../deprecated.html',1,'']]],
+  ['descriptions_1',['File Descriptions',['../file_description_page.html',1,'index']]]
 ];
